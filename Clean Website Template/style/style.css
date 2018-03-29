@@ -1,0 +1,144 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+	font-family: candara;
+	font-size: 14px;
+	font-weight: bold;
+}
+.main{
+	width:1200px;
+	margin: 0px auto;
+	padding-bottom: 50px;
+}
+.header{
+	height: 137px;
+}
+.display{
+	display: inline-block;
+}
+.floatleft{
+	float: left;
+}
+.width100{
+	width: 100%;
+}
+.black{
+	color: black;
+}
+.menu{
+	list-style: none;
+	width: 960px;
+	height:137px; 
+	padding:;
+	float: left;
+}
+.menu1{
+	list-style: none;
+	height: 137px;
+	width: 190px;
+	border-right:2px solid grey;
+}
+.link{
+	color:grey;
+	font-size: 16px;
+	font-family: Tahoma;
+	text-transform: uppercase;
+	text-decoration:none;
+	line-height: 137px;
+}
+.menu li :hover>a{color:black;}
+.menu li :hover{background-color: orange;}
+.fa-caret-down{visibility: hidden;}
+.menu li :hover .fa{visibility: visible;}
+.slider{
+	padding-top: 20px;
+}
+.onemlihaber{
+	height:260px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.onemlihaber div:nth-child(4){
+	border-right:15px;
+}
+.onemlihaber div {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 248.5px;
+	height:260px;
+	float: left;
+	border-right: 2px solid grey;
+	text-align: center;
+}
+.onemlihaber div p{
+	text-align: justify;
+	color:grey;
+}
+.uppercase{
+	text-transform:uppercase;
+	color: black;
+	text-decoration: none;
+}
+.button1{
+	width: 70px;
+	height: 30px;
+	background: gray;
+	color: white;
+}
+.althaber{
+	height:300px;
+}
+.habersol{
+	width: 60%;
+	height: 100%;
+}
+.habersag{
+	width: 40%;
+	height: 100%;
+}
+.haberust{
+	height: 50%;
+}
+.paragraf{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 15px;
+	bottom: 7px;
+}
+.sekil{
+	position: relative;
+	left: 10px;
+}
+.paragraf1{
+	display: inline-block;
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0px;
+
+}
+.footer{
+	height: 100px;
+	background: lightgrey;
+	text-align: center;
+	padding-top: 20px;
+}
+.footer ul li{
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+}
+.footer ul{
+	padding: 0px;
+	text-align: center;
+	display: inline-block;
+}
+.link1{
+line-height: 19px;
+}
